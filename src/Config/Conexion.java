@@ -15,10 +15,10 @@ import javax.swing.JOptionPane;
  * @author TURBO Core i3
  */
 public class Conexion {
-     public String db="sql10343760";
-    public String url="jdbc:mysql://sql10.freemysqlhosting.net/" +db;
-    public String user="sql10343760";
-    public String pass="kwqMeNBMgC";
+     public String db="ova";
+    public String url="jdbc:mysql://localhost/" +db;
+    public String user="root";
+    public String pass="";
     Connection link=null;
     public Conexion(){
         
